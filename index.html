@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>QuakeNet Development Team</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="reset.css"></link>
+  <link rel="stylesheet" href="main.css"></link>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body onload="go();">
+  <div id="header">
+    <span><img src="quakenet.png"></span>
+    <span>QuakeNet Development Team</span>
+  </div>
+  <div id="context">
+<h1>Introduction</h1>
+
+<h2>Infrastructure</h2>
+
+<ul>
+<li><a href="https://github.com/quakenet/">GitHub</a>
+<li>Support channel: <a href="irc://irc.quakenet.org/dev">#dev on QuakeNet</a> <a href="http://webchat.quakenet.org/?nick=&channels=dev&prompt=1">(webchat)</a></li>
+<li>E-mail address: <input type="button" id="email" value="Fetch" onclick="fetch();" style="display: none"><noscript>team_name@quakenet.org</noscript></li>
+</ul>
+
+<h1>Current projects</h1>
+
+<hr>
+
+<h2 class="project"><span><img src="newserv.png"></span><span>newserv</span></h2>
+
+<p>A modular P10 IRC services framework.</p>
+
+<p>GitHub: <a href="https://github.com/quakenet/newserv/">https://github.com/quakenet/newserv/</a></p>
+
+<p>Features:</p>
+<ul>
+<li>Role-based access checks for oper commands</li>
+<li>Search functionality</li>
+<li>Scripting (Lua)</li>
+<li>Proxy detection (P)</li>
+<li>Connection limits ("trusts")</li>
+<li>Transactional g:line support</li>
+<li>Jupes</li>
+<li>Chanfix</li>
+<li>Chanserv (Q9)</li>
+<li>Help Service (G)</li>
+<li>Channel Service Request (R)</li>
+<li>QA/Tutor Bots</li>
+<li>Server list with latency checks</li>
+</ul>
+
+<hr>
+
+<h2 class="project"><span><img src="qwebirc.png"></span><span>qwebirc</span></h2>
+
+<p>A fast minimalistic web IRC client.</p>
+
+<table>
+<tr>
+  <td>Main website:</td>
+  <td><a href="http://www.qwebirc.org/">http://www.qwebirc.org/</a></td>
+</tr>
+<tr>
+  <td>Repository:</td>
+  <td><a href="https://github.com/qwebirc/qwebirc/">https://github.com/qwebirc/qwebirc/</a></td>
+</tr>
+</table>
+
+<hr>
+
+<h2 class="project"><span><img src="snircd.png"></span><span>snircd</span></h2>
+
+<p>QuakeNet's IRC server, based on ircu.</p>
+
+<table>
+<tr>
+  <td>Latest release:</td>
+  <td><a href="https://www.quakenet.org/development/releases/snircd.12.10.1.3.4a.tar.gz">1.3.4a</a></td>
+</tr>
+<tr>
+  <td>Repository:</td>
+  <td><a href="https://bitbucket.org/quakenet/snircd/">https://bitbucket.org/quakenet/snircd/</a></td>
+</tr>
+<tr>
+  <td>Patch queue:</td>
+  <td><a href="https://bitbucket.org/quakenet/snircd-patchqueue/">https://bitbucket.org/quakenet/snircd-patchqueue/</a></td>
+</tr>
+<tr>
+  <td>Current version:</td><td><pre>hg clone "https://bitbucket.org/quakenet/snircd/rev/u2.10.12.10+snircd(1.3.4a)" snircd-1.3.4a
+</pre></td></tr>
+<tr>
+  <td>Development branch:</td><td><pre>hg qclone -p https://bitbucket.org/quakenet/snircd-patchqueue/ https://bitbucket.org/quakenet/snircd/
+hg up -R snircd 1.3.5-dev
+hg up -R snircd/.hg/patches patch-1.3.5</pre></td>
+</table>
+
+<hr>
+
+<h1>Former projects</h1>
+
+<h2>Lightweight</h2>
+
+<p>Former minimal channel chanservice.</p>
+
+<p>Repository: <a href="https://github.com/quakenet/lightweight/">https://github.com/quakenet/lightweight/</a></p>
+
+<div id="footer">
+Copyright &copy; 1998-2017 QuakeNet Development Team. All rights reserved.
+</div>
+</div>
+</body>
+</html>

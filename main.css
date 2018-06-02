@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+
+#header {
+  background: rgb(226, 198, 255);
+  padding: 5px 5px 10px 7px;
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 1px solid black;
+}
+
+#header span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  padding-right: 10px;
+  font-size: 1.5em;
+}
+
+#context {
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+h2.project {
+  height: 48px;
+}
+
+h2.project span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  padding-right: 15px;
+}
+
+li, table {
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+ul {
+  margin-bottom: 15px;
+}
+
+td {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 10px;
+}
+
+li {
+  list-style: disc;
+  margin-left: 40px;
+}
+
+#footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-style: italic;
+}
+
+pre {
+  font-family: monospace;
+}
